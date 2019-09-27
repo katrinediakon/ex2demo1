@@ -111,6 +111,3 @@ $this->setFrameMode(true);
 	<br /><?=$arResult["NAV_STRING"]?>
 <?endif;?>
 </div>
-
-<?$APPLICATION->SetDirProperty("SPECIALDATE", $i);?>
-<?echo $APPLICATION->GetDirProperty("SPECIALDATE");?>
